@@ -1,0 +1,27 @@
+{
+  "name": "jira-task-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Аналитика задач публичной Apache JIRA на TypeScript",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --import tsx src/cli.ts",
+    "fetch": "node --import tsx src/cli.ts fetch",
+    "report": "node --import tsx src/cli.ts report",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc -p tsconfig.test.json",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:coverage": "c8 npm test",
+    "check": "npm run typecheck && npm test && npm run build",
+    "package": "npm run build && node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "c8": "^12.0.0",
+    "tsx": "4.23.15",
+    "typescript": "~5.9.3"
+  }
+}

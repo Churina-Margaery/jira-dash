@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://issues.apache.org/jira",
+  "project": "HDFS",
+  "closedStatuses": ["Resolved", "Closed"],
+  "pageSize": 100,
+  "maxIssues": 500,
+  "timeoutMs": 30000,
+  "retries": 3,
+  "requestDelayMs": 200,
+  "histogramBins": 15,
+  "dataFile": "data/issues.json",
+  "reportFile": "reports/index.html",
+  "logFile": "logs/jira-analytics.log"
+}

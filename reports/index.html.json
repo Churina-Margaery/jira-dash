@@ -1,0 +1,7122 @@
+{
+  "dataset": {
+    "version": 1,
+    "source": "https://issues.apache.org/jira",
+    "project": "HDFS",
+    "fetchedAt": "2026-10-26T14:02:52.509Z",
+    "jql": "project = \"HDFS\" ORDER BY created DESC, key DESC",
+    "total": 17153,
+    "complete": false
+  },
+  "closedStatuses": [
+    "Resolved",
+    "Closed"
+  ],
+  "analytics": {
+    "issueCount": 500,
+    "closedCount": 227,
+    "missingWorklogs": 226,
+    "warnings": [],
+    "lifetime": [
+      {
+        "from": 0,
+        "to": 1440,
+        "count": 184
+      },
+      {
+        "from": 1440,
+        "to": 2880,
+        "count": 24
+      },
+      {
+        "from": 2880,
+        "to": 4320,
+        "count": 5
+      },
+      {
+        "from": 4320,
+        "to": 5760,
+        "count": 3
+      },
+      {
+        "from": 5760,
+        "to": 7200,
+        "count": 6
+      },
+      {
+        "from": 7200,
+        "to": 8640,
+        "count": 2
+      },
+      {
+        "from": 8640,
+        "to": 10080,
+        "count": 0
+      },
+      {
+        "from": 10080,
+        "to": 11520,
+        "count": 0
+      },
+      {
+        "from": 11520,
+        "to": 12960,
+        "count": 1
+      },
+      {
+        "from": 12960,
+        "to": 14400,
+        "count": 1
+      },
+      {
+        "from": 14400,
+        "to": 15840,
+        "count": 0
+      },
+      {
+        "from": 15840,
+        "to": 17280,
+        "count": 1
+      }
+    ],
+    "statuses": [
+      {
+        "status": "In Progress",
+        "histogram": [
+          {
+            "from": 0,
+            "to": 480,
+            "count": 25
+          },
+          {
+            "from": 480,
+            "to": 960,
+            "count": 2
+          },
+          {
+            "from": 960,
+            "to": 1440,
+            "count": 0
+          },
+          {
+            "from": 1440,
+            "to": 1920,
+            "count": 1
+          },
+          {
+            "from": 1920,
+            "to": 2400,
+            "count": 4
+          },
+          {
+            "from": 2400,
+            "to": 2880,
+            "count": 0
+          },
+          {
+            "from": 2880,
+            "to": 3360,
+            "count": 0
+          },
+          {
+            "from": 3360,
+            "to": 3840,
+            "count": 1
+          },
+          {
+            "from": 3840,
+            "to": 4320,
+            "count": 0
+          },
+          {
+            "from": 4320,
+            "to": 4800,
+            "count": 0
+          },
+          {
+            "from": 4800,
+            "to": 5280,
+            "count": 0
+          },
+          {
+            "from": 5280,
+            "to": 5760,
+            "count": 0
+          },
+          {
+            "from": 5760,
+            "to": 6240,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "status": "Open",
+        "histogram": [
+          {
+            "from": 0,
+            "to": 1440,
+            "count": 198
+          },
+          {
+            "from": 1440,
+            "to": 2880,
+            "count": 15
+          },
+          {
+            "from": 2880,
+            "to": 4320,
+            "count": 4
+          },
+          {
+            "from": 4320,
+            "to": 5760,
+            "count": 1
+          },
+          {
+            "from": 5760,
+            "to": 7200,
+            "count": 4
+          },
+          {
+            "from": 7200,
+            "to": 8640,
+            "count": 2
+          },
+          {
+            "from": 8640,
+            "to": 10080,
+            "count": 0
+          },
+          {
+            "from": 10080,
+            "to": 11520,
+            "count": 0
+          },
+          {
+            "from": 11520,
+            "to": 12960,
+            "count": 1
+          },
+          {
+            "from": 12960,
+            "to": 14400,
+            "count": 1
+          },
+          {
+            "from": 14400,
+            "to": 15840,
+            "count": 0
+          },
+          {
+            "from": 15840,
+            "to": 17280,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "status": "Patch Available",
+        "histogram": [
+          {
+            "from": 0,
+            "to": 480,
+            "count": 20
+          },
+          {
+            "from": 480,
+            "to": 960,
+            "count": 5
+          },
+          {
+            "from": 960,
+            "to": 1440,
+            "count": 1
+          },
+          {
+            "from": 1440,
+            "to": 1920,
+            "count": 2
+          },
+          {
+            "from": 1920,
+            "to": 2400,
+            "count": 1
+          },
+          {
+            "from": 2400,
+            "to": 2880,
+            "count": 1
+          },
+          {
+            "from": 2880,
+            "to": 3360,
+            "count": 1
+          },
+          {
+            "from": 3360,
+            "to": 3840,
+            "count": 0
+          },
+          {
+            "from": 3840,
+            "to": 4320,
+            "count": 0
+          },
+          {
+            "from": 4320,
+            "to": 4800,
+            "count": 0
+          },
+          {
+            "from": 4800,
+            "to": 5280,
+            "count": 0
+          },
+          {
+            "from": 5280,
+            "to": 5760,
+            "count": 1
+          },
+          {
+            "from": 5760,
+            "to": 6240,
+            "count": 0
+          },
+          {
+            "from": 6240,
+            "to": 6720,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "status": "Reopened",
+        "histogram": [
+          {
+            "from": 0,
+            "to": 48,
+            "count": 2
+          },
+          {
+            "from": 48,
+            "to": 96,
+            "count": 0
+          },
+          {
+            "from": 96,
+            "to": 144,
+            "count": 0
+          },
+          {
+            "from": 144,
+            "to": 192,
+            "count": 0
+          },
+          {
+            "from": 192,
+            "to": 240,
+            "count": 0
+          },
+          {
+            "from": 240,
+            "to": 288,
+            "count": 0
+          },
+          {
+            "from": 288,
+            "to": 336,
+            "count": 0
+          },
+          {
+            "from": 336,
+            "to": 384,
+            "count": 1
+          },
+          {
+            "from": 384,
+            "to": 432,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "status": "Resolved",
+        "histogram": [
+          {
+            "from": 0,
+            "to": 2,
+            "count": 1
+          },
+          {
+            "from": 2,
+            "to": 4,
+            "count": 1
+          },
+          {
+            "from": 4,
+            "to": 6,
+            "count": 0
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "count": 0
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "count": 0
+          },
+          {
+            "from": 10,
+            "to": 12,
+            "count": 0
+          },
+          {
+            "from": 12,
+            "to": 14,
+            "count": 0
+          },
+          {
+            "from": 14,
+            "to": 16,
+            "count": 0
+          },
+          {
+            "from": 16,
+            "to": 18,
+            "count": 0
+          },
+          {
+            "from": 18,
+            "to": 20,
+            "count": 0
+          },
+          {
+            "from": 20,
+            "to": 22,
+            "count": 0
+          },
+          {
+            "from": 22,
+            "to": 24,
+            "count": 0
+          },
+          {
+            "from": 24,
+            "to": 26,
+            "count": 0
+          },
+          {
+            "from": 26,
+            "to": 28,
+            "count": 1
+          },
+          {
+            "from": 28,
+            "to": 30,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "daily": [
+      {
+        "day": "2024-04-28",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 2,
+        "closedTotal": 0
+      },
+      {
+        "day": "2024-04-29",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 6,
+        "closedTotal": 0
+      },
+      {
+        "day": "2024-04-30",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 7,
+        "closedTotal": 0
+      },
+      {
+        "day": "2024-05-01",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 7,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 7,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 7,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 7,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 7,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-06",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 9,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-07",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 10,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-08",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 11,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-09",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 14,
+        "closedTotal": 1
+      },
+      {
+        "day": "2024-05-10",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 16,
+        "closedTotal": 2
+      },
+      {
+        "day": "2024-05-11",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 17,
+        "closedTotal": 2
+      },
+      {
+        "day": "2024-05-12",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 19,
+        "closedTotal": 2
+      },
+      {
+        "day": "2024-05-13",
+        "created": 2,
+        "closed": 2,
+        "createdTotal": 21,
+        "closedTotal": 4
+      },
+      {
+        "day": "2024-05-14",
+        "created": 3,
+        "closed": 2,
+        "createdTotal": 24,
+        "closedTotal": 6
+      },
+      {
+        "day": "2024-05-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 24,
+        "closedTotal": 6
+      },
+      {
+        "day": "2024-05-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 24,
+        "closedTotal": 6
+      },
+      {
+        "day": "2024-05-17",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 25,
+        "closedTotal": 7
+      },
+      {
+        "day": "2024-05-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 25,
+        "closedTotal": 7
+      },
+      {
+        "day": "2024-05-19",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 27,
+        "closedTotal": 7
+      },
+      {
+        "day": "2024-05-20",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 29,
+        "closedTotal": 7
+      },
+      {
+        "day": "2024-05-21",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 29,
+        "closedTotal": 8
+      },
+      {
+        "day": "2024-05-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 30,
+        "closedTotal": 8
+      },
+      {
+        "day": "2024-05-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 30,
+        "closedTotal": 8
+      },
+      {
+        "day": "2024-05-24",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 32,
+        "closedTotal": 9
+      },
+      {
+        "day": "2024-05-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 32,
+        "closedTotal": 9
+      },
+      {
+        "day": "2024-05-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 32,
+        "closedTotal": 9
+      },
+      {
+        "day": "2024-05-27",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 33,
+        "closedTotal": 9
+      },
+      {
+        "day": "2024-05-28",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 33,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-05-29",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 34,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-05-30",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 35,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-05-31",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 36,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-06-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 36,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-06-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 36,
+        "closedTotal": 10
+      },
+      {
+        "day": "2024-06-03",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 36,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 36,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-05",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 37,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-06",
+        "created": 5,
+        "closed": 0,
+        "createdTotal": 42,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-07",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 44,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 44,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 44,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 44,
+        "closedTotal": 12
+      },
+      {
+        "day": "2024-06-11",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 45,
+        "closedTotal": 13
+      },
+      {
+        "day": "2024-06-12",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 46,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 47,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 47,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 47,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 47,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 47,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-18",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 49,
+        "closedTotal": 14
+      },
+      {
+        "day": "2024-06-19",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 49,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 50,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-21",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 51,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 52,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 52,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 52,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 52,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 53,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-27",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 55,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-28",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 58,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 58,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-06-30",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 59,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-07-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 59,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-07-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 60,
+        "closedTotal": 16
+      },
+      {
+        "day": "2024-07-03",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 62,
+        "closedTotal": 17
+      },
+      {
+        "day": "2024-07-04",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 65,
+        "closedTotal": 17
+      },
+      {
+        "day": "2024-07-05",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 67,
+        "closedTotal": 18
+      },
+      {
+        "day": "2024-07-06",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 67,
+        "closedTotal": 19
+      },
+      {
+        "day": "2024-07-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 67,
+        "closedTotal": 19
+      },
+      {
+        "day": "2024-07-08",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 68,
+        "closedTotal": 20
+      },
+      {
+        "day": "2024-07-09",
+        "created": 3,
+        "closed": 2,
+        "createdTotal": 71,
+        "closedTotal": 22
+      },
+      {
+        "day": "2024-07-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 72,
+        "closedTotal": 22
+      },
+      {
+        "day": "2024-07-11",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 72,
+        "closedTotal": 23
+      },
+      {
+        "day": "2024-07-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 73,
+        "closedTotal": 23
+      },
+      {
+        "day": "2024-07-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 73,
+        "closedTotal": 23
+      },
+      {
+        "day": "2024-07-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 73,
+        "closedTotal": 23
+      },
+      {
+        "day": "2024-07-15",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 74,
+        "closedTotal": 24
+      },
+      {
+        "day": "2024-07-16",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 77,
+        "closedTotal": 25
+      },
+      {
+        "day": "2024-07-17",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 79,
+        "closedTotal": 25
+      },
+      {
+        "day": "2024-07-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 79,
+        "closedTotal": 25
+      },
+      {
+        "day": "2024-07-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 79,
+        "closedTotal": 25
+      },
+      {
+        "day": "2024-07-20",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 80,
+        "closedTotal": 26
+      },
+      {
+        "day": "2024-07-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 80,
+        "closedTotal": 26
+      },
+      {
+        "day": "2024-07-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 81,
+        "closedTotal": 26
+      },
+      {
+        "day": "2024-07-23",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 84,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 84,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 84,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-26",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 87,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-27",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 91,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 91,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 91,
+        "closedTotal": 27
+      },
+      {
+        "day": "2024-07-30",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 91,
+        "closedTotal": 28
+      },
+      {
+        "day": "2024-07-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 91,
+        "closedTotal": 28
+      },
+      {
+        "day": "2024-08-01",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 92,
+        "closedTotal": 28
+      },
+      {
+        "day": "2024-08-02",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 92,
+        "closedTotal": 29
+      },
+      {
+        "day": "2024-08-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 93,
+        "closedTotal": 29
+      },
+      {
+        "day": "2024-08-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 93,
+        "closedTotal": 29
+      },
+      {
+        "day": "2024-08-05",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 93,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 93,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 93,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 93,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 94,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 95,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 95,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 96,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 96,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 97,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-15",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 99,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 99,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 30
+      },
+      {
+        "day": "2024-08-19",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 100,
+        "closedTotal": 31
+      },
+      {
+        "day": "2024-08-20",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 100,
+        "closedTotal": 32
+      },
+      {
+        "day": "2024-08-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 32
+      },
+      {
+        "day": "2024-08-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 32
+      },
+      {
+        "day": "2024-08-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 32
+      },
+      {
+        "day": "2024-08-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 100,
+        "closedTotal": 32
+      },
+      {
+        "day": "2024-08-25",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 101,
+        "closedTotal": 33
+      },
+      {
+        "day": "2024-08-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 102,
+        "closedTotal": 33
+      },
+      {
+        "day": "2024-08-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 102,
+        "closedTotal": 33
+      },
+      {
+        "day": "2024-08-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 103,
+        "closedTotal": 33
+      },
+      {
+        "day": "2024-08-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 103,
+        "closedTotal": 33
+      },
+      {
+        "day": "2024-08-30",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-08-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 104,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-05",
+        "created": 7,
+        "closed": 0,
+        "createdTotal": 111,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 111,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 111,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 111,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 111,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-10",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 115,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 115,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 115,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-13",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 118,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 118,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 118,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 118,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 118,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-18",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 120,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 120,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 121,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 121,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 121,
+        "closedTotal": 34
+      },
+      {
+        "day": "2024-09-23",
+        "created": 2,
+        "closed": 2,
+        "createdTotal": 123,
+        "closedTotal": 36
+      },
+      {
+        "day": "2024-09-24",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 124,
+        "closedTotal": 36
+      },
+      {
+        "day": "2024-09-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 124,
+        "closedTotal": 36
+      },
+      {
+        "day": "2024-09-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 124,
+        "closedTotal": 36
+      },
+      {
+        "day": "2024-09-27",
+        "created": 1,
+        "closed": 2,
+        "createdTotal": 125,
+        "closedTotal": 38
+      },
+      {
+        "day": "2024-09-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 125,
+        "closedTotal": 38
+      },
+      {
+        "day": "2024-09-29",
+        "created": 1,
+        "closed": 2,
+        "createdTotal": 126,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-09-30",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 127,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 127,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 128,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 128,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-04",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 131,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 131,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 131,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 131,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-08",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 132,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-09",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 134,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-10",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 136,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 136,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 136,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 136,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 136,
+        "closedTotal": 40
+      },
+      {
+        "day": "2024-10-15",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 136,
+        "closedTotal": 41
+      },
+      {
+        "day": "2024-10-16",
+        "created": 1,
+        "closed": 3,
+        "createdTotal": 137,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 138,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 138,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 138,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 138,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-21",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 139,
+        "closedTotal": 44
+      },
+      {
+        "day": "2024-10-22",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 139,
+        "closedTotal": 45
+      },
+      {
+        "day": "2024-10-23",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 139,
+        "closedTotal": 46
+      },
+      {
+        "day": "2024-10-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 139,
+        "closedTotal": 46
+      },
+      {
+        "day": "2024-10-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 139,
+        "closedTotal": 46
+      },
+      {
+        "day": "2024-10-26",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 139,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-10-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 139,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-10-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 140,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-10-29",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 141,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-10-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 141,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-10-31",
+        "created": 5,
+        "closed": 0,
+        "createdTotal": 146,
+        "closedTotal": 47
+      },
+      {
+        "day": "2024-11-01",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 146,
+        "closedTotal": 48
+      },
+      {
+        "day": "2024-11-02",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 146,
+        "closedTotal": 50
+      },
+      {
+        "day": "2024-11-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 147,
+        "closedTotal": 50
+      },
+      {
+        "day": "2024-11-04",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 147,
+        "closedTotal": 51
+      },
+      {
+        "day": "2024-11-05",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 148,
+        "closedTotal": 52
+      },
+      {
+        "day": "2024-11-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 148,
+        "closedTotal": 52
+      },
+      {
+        "day": "2024-11-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 148,
+        "closedTotal": 52
+      },
+      {
+        "day": "2024-11-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 148,
+        "closedTotal": 52
+      },
+      {
+        "day": "2024-11-09",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 149,
+        "closedTotal": 53
+      },
+      {
+        "day": "2024-11-10",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 151,
+        "closedTotal": 53
+      },
+      {
+        "day": "2024-11-11",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 151,
+        "closedTotal": 54
+      },
+      {
+        "day": "2024-11-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 152,
+        "closedTotal": 54
+      },
+      {
+        "day": "2024-11-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 153,
+        "closedTotal": 54
+      },
+      {
+        "day": "2024-11-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 153,
+        "closedTotal": 54
+      },
+      {
+        "day": "2024-11-15",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 154,
+        "closedTotal": 54
+      },
+      {
+        "day": "2024-11-16",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 155,
+        "closedTotal": 55
+      },
+      {
+        "day": "2024-11-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 155,
+        "closedTotal": 55
+      },
+      {
+        "day": "2024-11-18",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 159,
+        "closedTotal": 55
+      },
+      {
+        "day": "2024-11-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 160,
+        "closedTotal": 55
+      },
+      {
+        "day": "2024-11-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 160,
+        "closedTotal": 55
+      },
+      {
+        "day": "2024-11-21",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 160,
+        "closedTotal": 56
+      },
+      {
+        "day": "2024-11-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 161,
+        "closedTotal": 56
+      },
+      {
+        "day": "2024-11-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 161,
+        "closedTotal": 56
+      },
+      {
+        "day": "2024-11-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 161,
+        "closedTotal": 56
+      },
+      {
+        "day": "2024-11-25",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 163,
+        "closedTotal": 56
+      },
+      {
+        "day": "2024-11-26",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 163,
+        "closedTotal": 58
+      },
+      {
+        "day": "2024-11-27",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 165,
+        "closedTotal": 58
+      },
+      {
+        "day": "2024-11-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 165,
+        "closedTotal": 58
+      },
+      {
+        "day": "2024-11-29",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 167,
+        "closedTotal": 59
+      },
+      {
+        "day": "2024-11-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 167,
+        "closedTotal": 59
+      },
+      {
+        "day": "2024-12-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 167,
+        "closedTotal": 59
+      },
+      {
+        "day": "2024-12-02",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 170,
+        "closedTotal": 59
+      },
+      {
+        "day": "2024-12-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 171,
+        "closedTotal": 60
+      },
+      {
+        "day": "2024-12-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 172,
+        "closedTotal": 60
+      },
+      {
+        "day": "2024-12-05",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 173,
+        "closedTotal": 60
+      },
+      {
+        "day": "2024-12-06",
+        "created": 2,
+        "closed": 2,
+        "createdTotal": 175,
+        "closedTotal": 62
+      },
+      {
+        "day": "2024-12-07",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 176,
+        "closedTotal": 62
+      },
+      {
+        "day": "2024-12-08",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 176,
+        "closedTotal": 63
+      },
+      {
+        "day": "2024-12-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 177,
+        "closedTotal": 63
+      },
+      {
+        "day": "2024-12-10",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 177,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 177,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 177,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 178,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 178,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 178,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 178,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 179,
+        "closedTotal": 64
+      },
+      {
+        "day": "2024-12-18",
+        "created": 4,
+        "closed": 1,
+        "createdTotal": 183,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 184,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 185,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 185,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 185,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 186,
+        "closedTotal": 65
+      },
+      {
+        "day": "2024-12-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 186,
+        "closedTotal": 66
+      },
+      {
+        "day": "2024-12-25",
+        "created": 0,
+        "closed": 3,
+        "createdTotal": 186,
+        "closedTotal": 69
+      },
+      {
+        "day": "2024-12-26",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 187,
+        "closedTotal": 70
+      },
+      {
+        "day": "2024-12-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 187,
+        "closedTotal": 70
+      },
+      {
+        "day": "2024-12-28",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 188,
+        "closedTotal": 71
+      },
+      {
+        "day": "2024-12-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 188,
+        "closedTotal": 71
+      },
+      {
+        "day": "2024-12-30",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 190,
+        "closedTotal": 71
+      },
+      {
+        "day": "2024-12-31",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 190,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-01",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 191,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 191,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 192,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 193,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 193,
+        "closedTotal": 73
+      },
+      {
+        "day": "2025-01-06",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 193,
+        "closedTotal": 74
+      },
+      {
+        "day": "2025-01-07",
+        "created": 0,
+        "closed": 3,
+        "createdTotal": 193,
+        "closedTotal": 77
+      },
+      {
+        "day": "2025-01-08",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 196,
+        "closedTotal": 78
+      },
+      {
+        "day": "2025-01-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 196,
+        "closedTotal": 78
+      },
+      {
+        "day": "2025-01-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 196,
+        "closedTotal": 78
+      },
+      {
+        "day": "2025-01-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 196,
+        "closedTotal": 78
+      },
+      {
+        "day": "2025-01-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 196,
+        "closedTotal": 78
+      },
+      {
+        "day": "2025-01-13",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 196,
+        "closedTotal": 80
+      },
+      {
+        "day": "2025-01-14",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 196,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 196,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-16",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 197,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 197,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-18",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 198,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-19",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 200,
+        "closedTotal": 81
+      },
+      {
+        "day": "2025-01-20",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 200,
+        "closedTotal": 82
+      },
+      {
+        "day": "2025-01-21",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 201,
+        "closedTotal": 82
+      },
+      {
+        "day": "2025-01-22",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 204,
+        "closedTotal": 83
+      },
+      {
+        "day": "2025-01-23",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 205,
+        "closedTotal": 84
+      },
+      {
+        "day": "2025-01-24",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 205,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-30",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 208,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-01-31",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 210,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-02-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 210,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-02-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 210,
+        "closedTotal": 86
+      },
+      {
+        "day": "2025-02-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 211,
+        "closedTotal": 87
+      },
+      {
+        "day": "2025-02-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 87
+      },
+      {
+        "day": "2025-02-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 87
+      },
+      {
+        "day": "2025-02-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 87
+      },
+      {
+        "day": "2025-02-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 87
+      },
+      {
+        "day": "2025-02-08",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 212,
+        "closedTotal": 88
+      },
+      {
+        "day": "2025-02-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 88
+      },
+      {
+        "day": "2025-02-10",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 212,
+        "closedTotal": 89
+      },
+      {
+        "day": "2025-02-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 212,
+        "closedTotal": 89
+      },
+      {
+        "day": "2025-02-12",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 212,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 213,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 213,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-15",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 215,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 215,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 215,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-18",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 216,
+        "closedTotal": 90
+      },
+      {
+        "day": "2025-02-19",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 218,
+        "closedTotal": 91
+      },
+      {
+        "day": "2025-02-20",
+        "created": 4,
+        "closed": 1,
+        "createdTotal": 222,
+        "closedTotal": 92
+      },
+      {
+        "day": "2025-02-21",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 225,
+        "closedTotal": 92
+      },
+      {
+        "day": "2025-02-22",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 225,
+        "closedTotal": 93
+      },
+      {
+        "day": "2025-02-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 226,
+        "closedTotal": 93
+      },
+      {
+        "day": "2025-02-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 226,
+        "closedTotal": 94
+      },
+      {
+        "day": "2025-02-25",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 229,
+        "closedTotal": 94
+      },
+      {
+        "day": "2025-02-26",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 229,
+        "closedTotal": 95
+      },
+      {
+        "day": "2025-02-27",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 230,
+        "closedTotal": 96
+      },
+      {
+        "day": "2025-02-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 231,
+        "closedTotal": 96
+      },
+      {
+        "day": "2025-03-01",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 233,
+        "closedTotal": 96
+      },
+      {
+        "day": "2025-03-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 233,
+        "closedTotal": 96
+      },
+      {
+        "day": "2025-03-03",
+        "created": 1,
+        "closed": 3,
+        "createdTotal": 234,
+        "closedTotal": 99
+      },
+      {
+        "day": "2025-03-04",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 237,
+        "closedTotal": 100
+      },
+      {
+        "day": "2025-03-05",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 240,
+        "closedTotal": 100
+      },
+      {
+        "day": "2025-03-06",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 240,
+        "closedTotal": 101
+      },
+      {
+        "day": "2025-03-07",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 241,
+        "closedTotal": 102
+      },
+      {
+        "day": "2025-03-08",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 242,
+        "closedTotal": 102
+      },
+      {
+        "day": "2025-03-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 243,
+        "closedTotal": 102
+      },
+      {
+        "day": "2025-03-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 243,
+        "closedTotal": 102
+      },
+      {
+        "day": "2025-03-11",
+        "created": 0,
+        "closed": 3,
+        "createdTotal": 243,
+        "closedTotal": 105
+      },
+      {
+        "day": "2025-03-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 244,
+        "closedTotal": 105
+      },
+      {
+        "day": "2025-03-13",
+        "created": 1,
+        "closed": 2,
+        "createdTotal": 245,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 246,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 246,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 246,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 247,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 247,
+        "closedTotal": 107
+      },
+      {
+        "day": "2025-03-19",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 247,
+        "closedTotal": 108
+      },
+      {
+        "day": "2025-03-20",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 247,
+        "closedTotal": 109
+      },
+      {
+        "day": "2025-03-21",
+        "created": 0,
+        "closed": 3,
+        "createdTotal": 247,
+        "closedTotal": 112
+      },
+      {
+        "day": "2025-03-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 247,
+        "closedTotal": 112
+      },
+      {
+        "day": "2025-03-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 247,
+        "closedTotal": 112
+      },
+      {
+        "day": "2025-03-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 247,
+        "closedTotal": 112
+      },
+      {
+        "day": "2025-03-25",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 248,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 249,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-27",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 250,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 251,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 251,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 251,
+        "closedTotal": 113
+      },
+      {
+        "day": "2025-03-31",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 253,
+        "closedTotal": 114
+      },
+      {
+        "day": "2025-04-01",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 254,
+        "closedTotal": 114
+      },
+      {
+        "day": "2025-04-02",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 254,
+        "closedTotal": 115
+      },
+      {
+        "day": "2025-04-03",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 254,
+        "closedTotal": 116
+      },
+      {
+        "day": "2025-04-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 254,
+        "closedTotal": 116
+      },
+      {
+        "day": "2025-04-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 254,
+        "closedTotal": 116
+      },
+      {
+        "day": "2025-04-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 254,
+        "closedTotal": 116
+      },
+      {
+        "day": "2025-04-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 254,
+        "closedTotal": 116
+      },
+      {
+        "day": "2025-04-08",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 254,
+        "closedTotal": 117
+      },
+      {
+        "day": "2025-04-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 255,
+        "closedTotal": 117
+      },
+      {
+        "day": "2025-04-10",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 255,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-11",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 256,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 256,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 257,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 258,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 258,
+        "closedTotal": 119
+      },
+      {
+        "day": "2025-04-16",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 259,
+        "closedTotal": 120
+      },
+      {
+        "day": "2025-04-17",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 259,
+        "closedTotal": 121
+      },
+      {
+        "day": "2025-04-18",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 260,
+        "closedTotal": 122
+      },
+      {
+        "day": "2025-04-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 260,
+        "closedTotal": 122
+      },
+      {
+        "day": "2025-04-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 260,
+        "closedTotal": 122
+      },
+      {
+        "day": "2025-04-21",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 260,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-22",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 262,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 263,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 263,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-04-30",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 264,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-01",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 265,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 265,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 265,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 265,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-05",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 266,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-06",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 267,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-07",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 268,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 268,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 268,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 269,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 269,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 269,
+        "closedTotal": 123
+      },
+      {
+        "day": "2025-05-13",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 269,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 270,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-15",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 274,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-16",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 275,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 275,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 275,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 276,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-20",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 278,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 278,
+        "closedTotal": 124
+      },
+      {
+        "day": "2025-05-22",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 278,
+        "closedTotal": 126
+      },
+      {
+        "day": "2025-05-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 279,
+        "closedTotal": 126
+      },
+      {
+        "day": "2025-05-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 279,
+        "closedTotal": 126
+      },
+      {
+        "day": "2025-05-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 279,
+        "closedTotal": 126
+      },
+      {
+        "day": "2025-05-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 279,
+        "closedTotal": 126
+      },
+      {
+        "day": "2025-05-27",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-05-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-05-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-05-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-05-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-06-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 281,
+        "closedTotal": 127
+      },
+      {
+        "day": "2025-06-02",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 281,
+        "closedTotal": 128
+      },
+      {
+        "day": "2025-06-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 128
+      },
+      {
+        "day": "2025-06-04",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 282,
+        "closedTotal": 129
+      },
+      {
+        "day": "2025-06-10",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 283,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 283,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 284,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-19",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 286,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 287,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 287,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 287,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 288,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 288,
+        "closedTotal": 130
+      },
+      {
+        "day": "2025-06-25",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 289,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-06-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-06-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-06-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-06-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-06-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 290,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-07",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 291,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 291,
+        "closedTotal": 131
+      },
+      {
+        "day": "2025-07-09",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 291,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-10",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 293,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-17",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 295,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 295,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 295,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 295,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-21",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 296,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 296,
+        "closedTotal": 132
+      },
+      {
+        "day": "2025-07-23",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 298,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-24",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 299,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-25",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 300,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 300,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 300,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 300,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 300,
+        "closedTotal": 133
+      },
+      {
+        "day": "2025-07-30",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 301,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-07-31",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 302,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 302,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 302,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 302,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 303,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 303,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 303,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 303,
+        "closedTotal": 134
+      },
+      {
+        "day": "2025-08-08",
+        "created": 3,
+        "closed": 2,
+        "createdTotal": 306,
+        "closedTotal": 136
+      },
+      {
+        "day": "2025-08-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 306,
+        "closedTotal": 136
+      },
+      {
+        "day": "2025-08-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 306,
+        "closedTotal": 136
+      },
+      {
+        "day": "2025-08-11",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 307,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 307,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 307,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 307,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 307,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-16",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 308,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 309,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-18",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 137
+      },
+      {
+        "day": "2025-08-19",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 310,
+        "closedTotal": 138
+      },
+      {
+        "day": "2025-08-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 138
+      },
+      {
+        "day": "2025-08-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 138
+      },
+      {
+        "day": "2025-08-22",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-08-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 310,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 311,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 311,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 311,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 311,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-07",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 313,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 313,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 313,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 314,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-11",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 315,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 316,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-13",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 318,
+        "closedTotal": 139
+      },
+      {
+        "day": "2025-09-14",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 318,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-15",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 321,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-16",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 325,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 325,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 325,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 325,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 325,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-21",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 326,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 326,
+        "closedTotal": 141
+      },
+      {
+        "day": "2025-09-23",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 327,
+        "closedTotal": 142
+      },
+      {
+        "day": "2025-09-24",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 328,
+        "closedTotal": 142
+      },
+      {
+        "day": "2025-09-25",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 329,
+        "closedTotal": 143
+      },
+      {
+        "day": "2025-09-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 330,
+        "closedTotal": 143
+      },
+      {
+        "day": "2025-09-27",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 330,
+        "closedTotal": 144
+      },
+      {
+        "day": "2025-09-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 330,
+        "closedTotal": 144
+      },
+      {
+        "day": "2025-09-29",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 330,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-09-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 330,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 330,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 331,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-09",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 333,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 333,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 333,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 333,
+        "closedTotal": 145
+      },
+      {
+        "day": "2025-10-13",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 334,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 146
+      },
+      {
+        "day": "2025-10-22",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 335,
+        "closedTotal": 147
+      },
+      {
+        "day": "2025-10-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 147
+      },
+      {
+        "day": "2025-10-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 147
+      },
+      {
+        "day": "2025-10-25",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-10-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 335,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-04",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 337,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-05",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 338,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 338,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-07",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 148
+      },
+      {
+        "day": "2025-11-17",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 341,
+        "closedTotal": 149
+      },
+      {
+        "day": "2025-11-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 149
+      },
+      {
+        "day": "2025-11-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 149
+      },
+      {
+        "day": "2025-11-20",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 341,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-26",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 344,
+        "closedTotal": 150
+      },
+      {
+        "day": "2025-11-27",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 345,
+        "closedTotal": 151
+      },
+      {
+        "day": "2025-11-28",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 345,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-11-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 345,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-11-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 345,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 345,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 346,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 346,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 347,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 347,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 347,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 347,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 347,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 348,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 349,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 349,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 350,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 351,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 351,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 351,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 351,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 351,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 352,
+        "closedTotal": 152
+      },
+      {
+        "day": "2025-12-29",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 352,
+        "closedTotal": 153
+      },
+      {
+        "day": "2025-12-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 352,
+        "closedTotal": 153
+      },
+      {
+        "day": "2025-12-31",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 353,
+        "closedTotal": 153
+      },
+      {
+        "day": "2026-01-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 353,
+        "closedTotal": 153
+      },
+      {
+        "day": "2026-01-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 354,
+        "closedTotal": 153
+      },
+      {
+        "day": "2026-01-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 354,
+        "closedTotal": 153
+      },
+      {
+        "day": "2026-01-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 354,
+        "closedTotal": 153
+      },
+      {
+        "day": "2026-01-05",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 355,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-11",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 356,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 357,
+        "closedTotal": 154
+      },
+      {
+        "day": "2026-01-13",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 358,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 359,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 360,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-21",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 362,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-29",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 363,
+        "closedTotal": 155
+      },
+      {
+        "day": "2026-01-30",
+        "created": 1,
+        "closed": 2,
+        "createdTotal": 364,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-01-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 364,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 364,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 365,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 366,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 366,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-11",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 367,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 367,
+        "closedTotal": 157
+      },
+      {
+        "day": "2026-02-13",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 369,
+        "closedTotal": 158
+      },
+      {
+        "day": "2026-02-23",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 371,
+        "closedTotal": 159
+      },
+      {
+        "day": "2026-02-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 371,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-02-25",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 372,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-02-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 373,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-02-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 373,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-02-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 373,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-03-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 373,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-03-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 374,
+        "closedTotal": 160
+      },
+      {
+        "day": "2026-03-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 375,
+        "closedTotal": 161
+      },
+      {
+        "day": "2026-03-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 375,
+        "closedTotal": 161
+      },
+      {
+        "day": "2026-03-05",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 375,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 375,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 375,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 375,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 375,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 376,
+        "closedTotal": 162
+      },
+      {
+        "day": "2026-03-11",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 376,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 377,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 377,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 378,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 378,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 378,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-17",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 379,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 379,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 379,
+        "closedTotal": 163
+      },
+      {
+        "day": "2026-03-20",
+        "created": 3,
+        "closed": 2,
+        "createdTotal": 382,
+        "closedTotal": 165
+      },
+      {
+        "day": "2026-03-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 382,
+        "closedTotal": 165
+      },
+      {
+        "day": "2026-03-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 383,
+        "closedTotal": 165
+      },
+      {
+        "day": "2026-03-23",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 383,
+        "closedTotal": 167
+      },
+      {
+        "day": "2026-03-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 383,
+        "closedTotal": 167
+      },
+      {
+        "day": "2026-03-25",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 383,
+        "closedTotal": 168
+      },
+      {
+        "day": "2026-03-26",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 385,
+        "closedTotal": 168
+      },
+      {
+        "day": "2026-03-27",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 386,
+        "closedTotal": 168
+      },
+      {
+        "day": "2026-03-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 386,
+        "closedTotal": 168
+      },
+      {
+        "day": "2026-03-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 386,
+        "closedTotal": 168
+      },
+      {
+        "day": "2026-03-30",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 387,
+        "closedTotal": 169
+      },
+      {
+        "day": "2026-03-31",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 388,
+        "closedTotal": 169
+      },
+      {
+        "day": "2026-04-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 388,
+        "closedTotal": 169
+      },
+      {
+        "day": "2026-04-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 388,
+        "closedTotal": 169
+      },
+      {
+        "day": "2026-04-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 389,
+        "closedTotal": 170
+      },
+      {
+        "day": "2026-04-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 389,
+        "closedTotal": 170
+      },
+      {
+        "day": "2026-04-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 389,
+        "closedTotal": 170
+      },
+      {
+        "day": "2026-04-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 389,
+        "closedTotal": 170
+      },
+      {
+        "day": "2026-04-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 389,
+        "closedTotal": 170
+      },
+      {
+        "day": "2026-04-08",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 389,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 390,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 391,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 391,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 391,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 391,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 392,
+        "closedTotal": 171
+      },
+      {
+        "day": "2026-04-15",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 392,
+        "closedTotal": 173
+      },
+      {
+        "day": "2026-04-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 392,
+        "closedTotal": 173
+      },
+      {
+        "day": "2026-04-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 392,
+        "closedTotal": 173
+      },
+      {
+        "day": "2026-04-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 392,
+        "closedTotal": 173
+      },
+      {
+        "day": "2026-04-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 392,
+        "closedTotal": 173
+      },
+      {
+        "day": "2026-04-20",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 393,
+        "closedTotal": 174
+      },
+      {
+        "day": "2026-04-21",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 394,
+        "closedTotal": 175
+      },
+      {
+        "day": "2026-04-22",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 394,
+        "closedTotal": 176
+      },
+      {
+        "day": "2026-04-23",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 396,
+        "closedTotal": 176
+      },
+      {
+        "day": "2026-04-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 396,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-25",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 397,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 397,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-27",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 398,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 399,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 399,
+        "closedTotal": 177
+      },
+      {
+        "day": "2026-04-30",
+        "created": 1,
+        "closed": 2,
+        "createdTotal": 400,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-01",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 401,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 401,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-03",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 401,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 401,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 401,
+        "closedTotal": 179
+      },
+      {
+        "day": "2026-05-06",
+        "created": 1,
+        "closed": 3,
+        "createdTotal": 402,
+        "closedTotal": 182
+      },
+      {
+        "day": "2026-05-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 402,
+        "closedTotal": 182
+      },
+      {
+        "day": "2026-05-08",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 403,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 403,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 403,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 403,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 404,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 405,
+        "closedTotal": 183
+      },
+      {
+        "day": "2026-05-14",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 405,
+        "closedTotal": 184
+      },
+      {
+        "day": "2026-05-15",
+        "created": 2,
+        "closed": 3,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 407,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-22",
+        "created": 4,
+        "closed": 0,
+        "createdTotal": 411,
+        "closedTotal": 187
+      },
+      {
+        "day": "2026-05-23",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 411,
+        "closedTotal": 188
+      },
+      {
+        "day": "2026-05-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 411,
+        "closedTotal": 188
+      },
+      {
+        "day": "2026-05-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 411,
+        "closedTotal": 188
+      },
+      {
+        "day": "2026-05-26",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 411,
+        "closedTotal": 190
+      },
+      {
+        "day": "2026-05-27",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 412,
+        "closedTotal": 191
+      },
+      {
+        "day": "2026-05-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 412,
+        "closedTotal": 191
+      },
+      {
+        "day": "2026-05-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 412,
+        "closedTotal": 191
+      },
+      {
+        "day": "2026-05-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 412,
+        "closedTotal": 191
+      },
+      {
+        "day": "2026-05-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 412,
+        "closedTotal": 191
+      },
+      {
+        "day": "2026-06-01",
+        "created": 1,
+        "closed": 3,
+        "createdTotal": 413,
+        "closedTotal": 194
+      },
+      {
+        "day": "2026-06-02",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 414,
+        "closedTotal": 194
+      },
+      {
+        "day": "2026-06-03",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 415,
+        "closedTotal": 194
+      },
+      {
+        "day": "2026-06-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 416,
+        "closedTotal": 194
+      },
+      {
+        "day": "2026-06-05",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 416,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 416,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 416,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 416,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-09",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 418,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 418,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 418,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 419,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 420,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 420,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 420,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-22",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 421,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 421,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-24",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 422,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-25",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 424,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 424,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 424,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-28",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 426,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-29",
+        "created": 5,
+        "closed": 0,
+        "createdTotal": 431,
+        "closedTotal": 196
+      },
+      {
+        "day": "2026-06-30",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 431,
+        "closedTotal": 197
+      },
+      {
+        "day": "2026-07-01",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 432,
+        "closedTotal": 198
+      },
+      {
+        "day": "2026-07-02",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 434,
+        "closedTotal": 199
+      },
+      {
+        "day": "2026-07-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 435,
+        "closedTotal": 200
+      },
+      {
+        "day": "2026-07-14",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 436,
+        "closedTotal": 201
+      },
+      {
+        "day": "2026-07-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 201
+      },
+      {
+        "day": "2026-07-16",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 436,
+        "closedTotal": 202
+      },
+      {
+        "day": "2026-07-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 202
+      },
+      {
+        "day": "2026-07-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 202
+      },
+      {
+        "day": "2026-07-19",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 202
+      },
+      {
+        "day": "2026-07-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 202
+      },
+      {
+        "day": "2026-07-21",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 436,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 436,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-23",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 437,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 437,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 437,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 437,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-27",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-07-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-08-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 438,
+        "closedTotal": 203
+      },
+      {
+        "day": "2026-08-02",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 440,
+        "closedTotal": 204
+      },
+      {
+        "day": "2026-08-03",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 440,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-04",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-05",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-09",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 441,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-11",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 444,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-12",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 445,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-13",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 447,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-14",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 448,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-15",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 448,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 448,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-17",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 448,
+        "closedTotal": 205
+      },
+      {
+        "day": "2026-08-18",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 449,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-19",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 450,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-20",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 451,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-21",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 451,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 451,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 451,
+        "closedTotal": 206
+      },
+      {
+        "day": "2026-08-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 451,
+        "closedTotal": 207
+      },
+      {
+        "day": "2026-08-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 451,
+        "closedTotal": 207
+      },
+      {
+        "day": "2026-08-26",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 453,
+        "closedTotal": 208
+      },
+      {
+        "day": "2026-08-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 453,
+        "closedTotal": 208
+      },
+      {
+        "day": "2026-08-28",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 453,
+        "closedTotal": 208
+      },
+      {
+        "day": "2026-08-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 453,
+        "closedTotal": 208
+      },
+      {
+        "day": "2026-08-30",
+        "created": 2,
+        "closed": 1,
+        "createdTotal": 455,
+        "closedTotal": 209
+      },
+      {
+        "day": "2026-08-31",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 455,
+        "closedTotal": 209
+      },
+      {
+        "day": "2026-09-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 455,
+        "closedTotal": 209
+      },
+      {
+        "day": "2026-09-02",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 455,
+        "closedTotal": 209
+      },
+      {
+        "day": "2026-09-03",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 456,
+        "closedTotal": 210
+      },
+      {
+        "day": "2026-09-04",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 456,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-05",
+        "created": 5,
+        "closed": 0,
+        "createdTotal": 461,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 461,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-07",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 461,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-08",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 462,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-09",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-10",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-13",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-14",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 463,
+        "closedTotal": 211
+      },
+      {
+        "day": "2026-09-15",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 463,
+        "closedTotal": 212
+      },
+      {
+        "day": "2026-09-16",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 464,
+        "closedTotal": 212
+      },
+      {
+        "day": "2026-09-17",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 213
+      },
+      {
+        "day": "2026-09-18",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 214
+      },
+      {
+        "day": "2026-09-19",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 215
+      },
+      {
+        "day": "2026-09-20",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 465,
+        "closedTotal": 215
+      },
+      {
+        "day": "2026-09-21",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 216
+      },
+      {
+        "day": "2026-09-22",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 465,
+        "closedTotal": 216
+      },
+      {
+        "day": "2026-09-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 465,
+        "closedTotal": 216
+      },
+      {
+        "day": "2026-09-24",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 217
+      },
+      {
+        "day": "2026-09-25",
+        "created": 0,
+        "closed": 1,
+        "createdTotal": 465,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-09-26",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 465,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-09-27",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 465,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-09-28",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 466,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-09-29",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 466,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-09-30",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 466,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-10-01",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 466,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-10-02",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 468,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-10-03",
+        "created": 2,
+        "closed": 0,
+        "createdTotal": 470,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-10-04",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 470,
+        "closedTotal": 218
+      },
+      {
+        "day": "2026-10-05",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 471,
+        "closedTotal": 219
+      },
+      {
+        "day": "2026-10-06",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 471,
+        "closedTotal": 219
+      },
+      {
+        "day": "2026-10-07",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 472,
+        "closedTotal": 219
+      },
+      {
+        "day": "2026-10-08",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 472,
+        "closedTotal": 219
+      },
+      {
+        "day": "2026-10-09",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 475,
+        "closedTotal": 220
+      },
+      {
+        "day": "2026-10-10",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 476,
+        "closedTotal": 220
+      },
+      {
+        "day": "2026-10-11",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 476,
+        "closedTotal": 220
+      },
+      {
+        "day": "2026-10-12",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 476,
+        "closedTotal": 220
+      },
+      {
+        "day": "2026-10-13",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 477,
+        "closedTotal": 220
+      },
+      {
+        "day": "2026-10-14",
+        "created": 1,
+        "closed": 1,
+        "createdTotal": 478,
+        "closedTotal": 221
+      },
+      {
+        "day": "2026-10-15",
+        "created": 3,
+        "closed": 0,
+        "createdTotal": 481,
+        "closedTotal": 221
+      },
+      {
+        "day": "2026-10-16",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 481,
+        "closedTotal": 221
+      },
+      {
+        "day": "2026-10-17",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 481,
+        "closedTotal": 223
+      },
+      {
+        "day": "2026-10-18",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 481,
+        "closedTotal": 223
+      },
+      {
+        "day": "2026-10-19",
+        "created": 12,
+        "closed": 0,
+        "createdTotal": 493,
+        "closedTotal": 223
+      },
+      {
+        "day": "2026-10-20",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 496,
+        "closedTotal": 224
+      },
+      {
+        "day": "2026-10-21",
+        "created": 3,
+        "closed": 1,
+        "createdTotal": 499,
+        "closedTotal": 225
+      },
+      {
+        "day": "2026-10-22",
+        "created": 0,
+        "closed": 2,
+        "createdTotal": 499,
+        "closedTotal": 227
+      },
+      {
+        "day": "2026-10-23",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 499,
+        "closedTotal": 227
+      },
+      {
+        "day": "2026-10-24",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 499,
+        "closedTotal": 227
+      },
+      {
+        "day": "2026-10-25",
+        "created": 0,
+        "closed": 0,
+        "createdTotal": 499,
+        "closedTotal": 227
+      },
+      {
+        "day": "2026-10-26",
+        "created": 1,
+        "closed": 0,
+        "createdTotal": 500,
+        "closedTotal": 227
+      }
+    ],
+    "users": [
+      {
+        "id": "zhanghaobo",
+        "name": "Haobo Zhang",
+        "assigned": 61,
+        "reported": 57,
+        "total": 61
+      },
+      {
+        "id": "coconut_icecream",
+        "name": "Felix N",
+        "assigned": 24,
+        "reported": 24,
+        "total": 25
+      },
+      {
+        "id": "JIRAUSER301546",
+        "name": "Zhaobo Huang",
+        "assigned": 16,
+        "reported": 17,
+        "total": 17
+      },
+      {
+        "id": "fuchaohong",
+        "name": "fuchaohong",
+        "assigned": 3,
+        "reported": 15,
+        "total": 15
+      },
+      {
+        "id": "JIRAUSER289727",
+        "name": "Jian Zhang",
+        "assigned": 9,
+        "reported": 13,
+        "total": 14
+      },
+      {
+        "id": "smeng",
+        "name": "Siyao Meng",
+        "assigned": 12,
+        "reported": 13,
+        "total": 13
+      },
+      {
+        "id": "stoty",
+        "name": "Istvan Toth",
+        "assigned": 10,
+        "reported": 12,
+        "total": 12
+      },
+      {
+        "id": "JIRAUSER313023",
+        "name": "Yue Wang",
+        "assigned": 11,
+        "reported": 7,
+        "total": 11
+      },
+      {
+        "id": "liuguanghua",
+        "name": "liuguanghua",
+        "assigned": 11,
+        "reported": 11,
+        "total": 11
+      },
+      {
+        "id": "xuzq_zander",
+        "name": "ZanderXu",
+        "assigned": 10,
+        "reported": 11,
+        "total": 11
+      },
+      {
+        "id": "charlesconnell",
+        "name": "Charles Connell",
+        "assigned": 10,
+        "reported": 10,
+        "total": 10
+      },
+      {
+        "id": "JIRAUSER295067",
+        "name": "Hualong Zhang",
+        "assigned": 8,
+        "reported": 6,
+        "total": 8
+      },
+      {
+        "id": "JIRAUSER307052",
+        "name": "Shangshu Qian",
+        "assigned": 0,
+        "reported": 8,
+        "total": 8
+      },
+      {
+        "id": "caozhiqiang",
+        "name": "caozhiqiang",
+        "assigned": 7,
+        "reported": 7,
+        "total": 7
+      },
+      {
+        "id": "JIRAUSER314167",
+        "name": "Jose Luis López",
+        "assigned": 7,
+        "reported": 6,
+        "total": 7
+      },
+      {
+        "id": "dustinday",
+        "name": "John Doe",
+        "assigned": 0,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "eub",
+        "name": "YUBI LEE",
+        "assigned": 4,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "JIRAUSER296392",
+        "name": "rstest",
+        "assigned": 3,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "JIRAUSER301422",
+        "name": "LoggingResearch",
+        "assigned": 0,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "JIRAUSER304511",
+        "name": "Anurag Bisen",
+        "assigned": 0,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "rdhabalia",
+        "name": "Rajan Dhabalia",
+        "assigned": 1,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "szetszwo",
+        "name": "Tsz-wo Sze",
+        "assigned": 5,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "zhengchenyu",
+        "name": "Chenyu Zheng",
+        "assigned": 5,
+        "reported": 6,
+        "total": 6
+      },
+      {
+        "id": "dzcxzl",
+        "name": "dzcxzl",
+        "assigned": 2,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "JIRAUSER299659",
+        "name": "zeekling",
+        "assigned": 0,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "JIRAUSER311004",
+        "name": "yue.wang",
+        "assigned": 0,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "JIRAUSER313708",
+        "name": "jiang he",
+        "assigned": 0,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "lei w",
+        "name": "lei w",
+        "assigned": 2,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "slfan1989",
+        "name": "Shilun Fan",
+        "assigned": 3,
+        "reported": 5,
+        "total": 5
+      },
+      {
+        "id": "chengpan",
+        "name": "Cheng Pan",
+        "assigned": 3,
+        "reported": 4,
+        "total": 4
+      }
+    ],
+    "worklogs": [
+      {
+        "from": 0,
+        "to": 0.03333333333333333,
+        "count": 0
+      },
+      {
+        "from": 0.03333333333333333,
+        "to": 0.06666666666666667,
+        "count": 0
+      },
+      {
+        "from": 0.06666666666666667,
+        "to": 0.1,
+        "count": 0
+      },
+      {
+        "from": 0.1,
+        "to": 0.13333333333333333,
+        "count": 0
+      },
+      {
+        "from": 0.13333333333333333,
+        "to": 0.16666666666666666,
+        "count": 0
+      },
+      {
+        "from": 0.16666666666666666,
+        "to": 0.2,
+        "count": 0
+      },
+      {
+        "from": 0.2,
+        "to": 0.23333333333333334,
+        "count": 0
+      },
+      {
+        "from": 0.23333333333333334,
+        "to": 0.26666666666666666,
+        "count": 0
+      },
+      {
+        "from": 0.26666666666666666,
+        "to": 0.3,
+        "count": 0
+      },
+      {
+        "from": 0.3,
+        "to": 0.3333333333333333,
+        "count": 0
+      },
+      {
+        "from": 0.3333333333333333,
+        "to": 0.36666666666666664,
+        "count": 0
+      },
+      {
+        "from": 0.36666666666666664,
+        "to": 0.4,
+        "count": 0
+      },
+      {
+        "from": 0.4,
+        "to": 0.43333333333333335,
+        "count": 0
+      },
+      {
+        "from": 0.43333333333333335,
+        "to": 0.4666666666666667,
+        "count": 0
+      },
+      {
+        "from": 0.4666666666666667,
+        "to": 0.5,
+        "count": 1
+      }
+    ],
+    "priorities": [
+      {
+        "priority": "Major",
+        "count": 380
+      },
+      {
+        "priority": "Minor",
+        "count": 84
+      },
+      {
+        "priority": "Critical",
+        "count": 20
+      },
+      {
+        "priority": "Trivial",
+        "count": 11
+      },
+      {
+        "priority": "Blocker",
+        "count": 5
+      }
+    ]
+  }
+}
